@@ -1,0 +1,678 @@
+body {
+  margin: 0px;
+}
+
+.page-container {
+  padding: 5px;
+
+  background-color: rgba(151, 149, 149, 0.199);
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .page-container {
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .page-container {
+    padding: 20px;
+  }
+}
+
+.introduction-section {
+  background-color: #121110;
+}
+.introduction-section .navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+@media only screen and (min-width: 1439px) {
+  .introduction-section .navbar-container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+.introduction-section .navbar-icon {
+  color: white;
+  margin-top: 20px;
+  font-family: "Abril Fatface", cursive;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .introduction-section .navbar-icon {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .introduction-section .navbar-icon {
+    margin-top: 5%;
+    font-size: 32px;
+  }
+}
+.introduction-section .navbar-navigation-container {
+  margin-top: 20px;
+}
+@media only screen and (min-width: 1440px) {
+  .introduction-section .navbar-navigation-container {
+    margin-top: 5%;
+    font-size: 32px;
+  }
+}
+.introduction-section .navbar-link {
+  margin-right: 20px;
+  padding: 5px;
+  color: white;
+  background: url("../../assets/images/green-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 50px 10px;
+  background-position: 90% 80%;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Abril Fatface", cursive;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .introduction-section .navbar-link {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .introduction-section .navbar-link {
+    font-size: 24px;
+  }
+}
+.introduction-section .navbar-button {
+  padding: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background: url("../../Assets/Images/green-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 60px 10px;
+  background-position: 90% 80%;
+  font-family: "Abril Fatface", cursive;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .introduction-section .navbar-button {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .introduction-section .navbar-button {
+    font-size: 24px;
+  }
+}
+.introduction-section .developer-description-container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .introduction-section .developer-description-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .introduction-section .developer-description-container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+.introduction-section .introduction-title {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 2px;
+  font-size: 32px;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .introduction-section .introduction-title {
+    font-size: 42px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .introduction-section .introduction-title {
+    font-size: 56px;
+    width: 800px;
+    text-align: left;
+    padding: 0px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .introduction-section .introduction-title {
+    font-size: 56px;
+    width: 900px;
+    text-align: left;
+    padding: 0px;
+    margin-top: 100px;
+  }
+}
+.introduction-section .green-highlight {
+  padding: 5px;
+  background: url("../../Assets/Images/green-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 200px 20px;
+  background-position: 95% 80%;
+}
+.introduction-section .green-highlight-sm {
+  padding: 5px;
+  background: url("../../Assets/Images/green-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 150px 20px;
+  background-position: 95% 80%;
+}
+.introduction-section .introduction-description {
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 50px;
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .introduction-section .introduction-description {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .introduction-section .introduction-description {
+    text-align: left;
+    width: 500px;
+    line-height: 30px;
+    padding: 0px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .introduction-section .introduction-description {
+    text-align: left;
+    padding: 0px;
+    width: 500px;
+  }
+}
+.introduction-section .see-work-button-container {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .introduction-section .see-work-button-container {
+    padding-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .introduction-section .see-work-button-container {
+    text-align: left;
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .introduction-section .see-work-button-container {
+    text-align: left;
+    margin-top: 50px;
+    padding-bottom: 80px;
+  }
+}
+
+.website-project-button {
+  width: 200px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.website-example {
+  margin-top: 75px;
+}
+@media only screen and (min-width: 1440px) {
+  .website-example {
+    margin-top: 100px;
+  }
+}
+.website-example .website-example-divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media only screen and (min-width: 1024px) {
+  .website-example .website-example-divider {
+    flex-direction: row;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .website-example .website-example-text-container {
+    width: 100%;
+    margin-left: 5%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .website-example .website-example-text-container {
+    margin-left: 10%;
+  }
+}
+.website-example .website-example-heading {
+  color: #b7b4b9;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  text-transform: uppercase;
+  letter-spacing: 20%;
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+}
+@media only screen and (min-width: 1024px) {
+  .website-example .website-example-heading {
+    text-align: left;
+  }
+}
+.website-example .website-example-title {
+  font-weight: 400;
+  font-size: 56px;
+  font-family: "Abril Fatface", cursive;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+@media only screen and (min-width: 1024px) {
+  .website-example .website-example-title {
+    text-align: left;
+  }
+}
+.website-example .website-example-boxes-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .website-example .website-example-boxes-container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .website-example .website-example-boxes-container {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .website-example .website-example-boxes-container {
+    justify-content: left;
+  }
+}
+.website-example .website-example-box {
+  padding: 5px;
+  background-color: #17951f;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .website-example .website-example-box {
+    margin-right: 30px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .website-example .website-example-box {
+    margin-right: 50px;
+  }
+}
+.website-example .website-example-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .website-example .website-example-description {
+    text-align: left;
+    width: 450px;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .website-example .website-example-description {
+    width: 500px;
+    text-align: left;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+.website-example .website-example-text-button {
+  text-align: center;
+  margin-top: 25px;
+}
+@media only screen and (min-width: 1024px) {
+  .website-example .website-example-text-button {
+    text-align: left;
+    margin-top: 50px;
+  }
+}
+.website-example .website-example-image-container {
+  text-align: center;
+  margin-top: 50px;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .website-example .website-example-image-container {
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 70px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .website-example .website-example-image-container {
+    text-align: right;
+    margin-right: 10%;
+  }
+}
+.website-example .website-project-button-container {
+  text-align: center;
+}
+.website-example .website-example-image {
+  width: 275px;
+  height: 275px;
+}
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+  .website-example .website-example-image {
+    width: 600px;
+    height: 450px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .website-example .website-example-image {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .website-example .website-example-image {
+    width: 500px;
+    height: 450px;
+  }
+}
+
+.about-me {
+  margin-top: 25px;
+}
+@media only screen and (min-width: 1024px) {
+  .about-me {
+    margin-top: 50px;
+  }
+}
+.about-me .about-me-divider {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 1024px) {
+  .about-me .about-me-divider {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .about-me .about-me-text-container {
+    margin-left: 5%;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .about-me .about-me-text-container {
+    margin-left: 10%;
+    width: 100%;
+  }
+}
+.about-me .about-me-heading {
+  font-family: "Abril Fatface", cursive;
+  font-size: 48px;
+  padding: 5px;
+  text-align: center;
+  margin-right: 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .about-me .about-me-heading {
+    background-size: 150px 20px;
+    background-position: 57% 80%;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .about-me .about-me-heading {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .about-me .about-me-heading {
+    text-align: left;
+    font-size: 56px;
+  }
+}
+.about-me .highlight-span {
+  padding-right: 5px;
+  background: url("../../Assets/Images/green-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 80px 20px;
+  background-position: 95% 80%;
+}
+.about-me .about-me-image-container {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .about-me .about-me-image-container {
+    text-align: left;
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 5%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .about-me .about-me-image-container {
+    text-align: left;
+    width: 100%;
+    margin-right: 10%;
+    margin-top: 50px;
+  }
+}
+.about-me .about-me-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: "Mulish", sans-serif;
+  margin-bottom: 50px;
+}
+
+.footer {
+  background-color: #121110;
+  margin: 5px;
+}
+@media only screen and (max-width: 1023px) {
+  .footer {
+    display: none;
+  }
+}
+.footer .footer-divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media only screen and (min-width: 1024px) {
+  .footer .footer-divider {
+    flex-direction: row;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .footer .footer-left-side {
+    width: 100%;
+    margin-left: 5%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .footer .footer-left-side {
+    width: 100%;
+    text-align: left;
+    margin-left: 10%;
+  }
+}
+.footer .footer-heading {
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  font-size: 32px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .footer .footer-heading {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .footer .footer-heading {
+    text-align: left;
+    font-size: 56px;
+  }
+}
+.footer .footer-heading-span {
+  padding-right: 5px;
+  background: url("../../Assets/Images/green-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 80px 20px;
+  background-position: 82% 80%;
+}
+.footer .copyright-statement {
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .footer .copyright-statement {
+    text-align: left;
+    font-size: 10px;
+    margin-top: 150px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .footer .copyright-statement {
+    text-align: left;
+    font-size: 10px;
+    margin-top: 150px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .footer .footer-right-side {
+    width: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .footer .footer-right-side {
+    width: 100%;
+    margin-right: 10%;
+    margin-left: 5%;
+  }
+}
+.footer .footer-website-example-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Mulish", sans-serif;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .footer .footer-website-example-description {
+    text-align: left;
+    line-height: 50px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .footer .footer-website-example-description {
+    text-align: left;
+    margin-top: 60px;
+    line-height: 50px;
+  }
+}
+.footer .footer-description-span {
+  padding-right: 10px;
+  background: url("../../Assets/Images/green-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 275px 10px;
+  background-position: 90% 100%;
+}
+
+.footer-mobile {
+  background-color: #121110;
+  margin: 5px;
+}
+@media only screen and (min-width: 1024px) {
+  .footer-mobile {
+    display: none;
+  }
+}
+.footer-mobile .footer-divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-mobile .footer-heading {
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  font-size: 32px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .footer-mobile .footer-heading {
+    background-size: 80px 20px;
+    background-position: 75% 85%;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .footer-mobile .footer-heading {
+    background-size: 80px 20px;
+    background-position: 72% 85%;
+  }
+}
+.footer-mobile .footer-heading-span {
+  padding-right: 5px;
+  background: url("../Assets/Images/green-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 80px 20px;
+  background-position: 82% 90%;
+}
+.footer-mobile .footer-website-example-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Mulish", sans-serif;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.footer-mobile .footer-description-span {
+  padding-right: 10px;
+  background: url("../Assets/Images/green-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 275px 15px;
+  background-position: 100% 95%;
+}
+.footer-mobile .copyright-statement {
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 10px;
+}

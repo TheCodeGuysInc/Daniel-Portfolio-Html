@@ -1,0 +1,391 @@
+body {
+  margin: 0px;
+}
+
+.team-app-page-container {
+  padding: 5px;
+
+  background-color: rgba(151, 149, 149, 0.199);
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .team-app-page-container {
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .team-app-page-container {
+    padding: 20px;
+  }
+}
+
+.team-app-introduction-section {
+  background-color: #121110;
+}
+.team-app-introduction-section .team-app-navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+.team-app-introduction-section .team-app-navbar-icon {
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: "Abril Fatface", cursive;
+}
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+  .team-app-introduction-section .team-app-navbar-icon {
+    margin-left: 50px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .team-app-introduction-section .team-app-navbar-icon {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .team-app-introduction-section .team-app-navbar-icon {
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 32px;
+  }
+}
+.team-app-introduction-section .team-app-navbar-navigation-container {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+  .team-app-introduction-section .team-app-navbar-navigation-container {
+    margin-right: 50px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .team-app-introduction-section .team-app-navbar-navigation-container {
+    margin-top: 5%;
+    margin-right: 5%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .team-app-introduction-section .team-app-navbar-navigation-container {
+    margin-top: 3%;
+    margin-right: 10%;
+  }
+}
+.team-app-introduction-section .team-app-navbar-link {
+  margin-right: 20px;
+  padding: 5px;
+  color: white;
+  background: url("../../Assets/Images/orange-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 30px 7px;
+  background-position: 90% 80%;
+  text-decoration: none;
+  font-size: 14px;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .team-app-introduction-section .team-app-navbar-link {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .team-app-introduction-section .team-app-navbar-link {
+    font-size: 24px;
+  }
+}
+.team-app-introduction-section .team-app-navbar-button {
+  padding: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background: url("../../Assets/Images/orange-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 60px 7px;
+  background-position: 90% 80%;
+  font-size: 14px;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .team-app-introduction-section .team-app-navbar-button {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .team-app-introduction-section .team-app-navbar-button {
+    font-size: 24px;
+  }
+}
+.team-app-introduction-section .team-app-developer-description-container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+@media only screen and (min-width: 1440px) {
+  .team-app-introduction-section .team-app-developer-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.team-app-introduction-section .team-app-introduction-heading {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.team-app-introduction-section .team-app-introduction-title {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 2px;
+  font-size: 32px;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .team-app-introduction-section .team-app-introduction-title {
+    font-size: 42px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .team-app-introduction-section .team-app-introduction-title {
+    font-size: 56px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .team-app-introduction-section .team-app-introduction-title {
+    font-size: 56px;
+  }
+}
+.team-app-introduction-section .team-app-introduction-description {
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 0px;
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+  .team-app-introduction-section .team-app-introduction-description {
+    width: 700px;
+  }
+}
+.team-app-introduction-section .team-app-visit-live-site-button-container {
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+.team-app-introduction-section .team-app-visit-live-site-button {
+  font-size: 18px;
+  padding-right: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background: url("../../Assets/Images/orange-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 50px 10px;
+  background-position: 90% 90%;
+}
+
+.team-app-website-example .team-app-website-image-container {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.team-app-website-example .team-app-website-image {
+  width: 90%;
+}
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+  .team-app-website-example .team-app-website-image {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .team-app-website-example .team-app-website-image {
+    width: 95%;
+  }
+}
+.team-app-footer {
+  background-color: #121110;
+  margin: 5px;
+}
+@media only screen and (max-width: 1023px) {
+  .team-app-footer {
+    display: none;
+  }
+}
+.team-app-footer .team-app-footer-divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media only screen and (min-width: 1024px) {
+  .team-app-footer .team-app-footer-divider {
+    flex-direction: row;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .team-app-footer .team-app-footer-left-side {
+    width: 100%;
+    margin-left: 5%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .team-app-footer .team-app-footer-left-side {
+    width: 100%;
+    text-align: left;
+    margin-left: 10%;
+  }
+}
+.team-app-footer .team-app-footer-heading {
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  font-size: 32px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .team-app-footer .team-app-footer-heading {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .team-app-footer .team-app-footer-heading {
+    text-align: left;
+    font-size: 56px;
+  }
+}
+.team-app-footer .team-app-footer-heading-span {
+  padding-right: 5px;
+  background: url("../../Assets/Images/orange-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 80px 20px;
+  background-position: 82% 80%;
+}
+.team-app-footer .team-app-copyright-statement {
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .team-app-footer .team-app-copyright-statement {
+    text-align: left;
+    font-size: 10px;
+    margin-top: 100px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .team-app-footer .team-app-copyright-statement {
+    text-align: left;
+    font-size: 10px;
+    margin-top: 150px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .team-app-footer .team-app-footer-right-side {
+    width: 100%;
+    margin-right: 5%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .team-app-footer .team-app-footer-right-side {
+    width: 100%;
+    margin-right: 10%;
+  }
+}
+.team-app-footer .team-app-footer-website-example-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Mulish", sans-serif;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .team-app-footer .team-app-footer-website-example-description {
+    text-align: left;
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .team-app-footer .team-app-footer-website-example-description {
+    text-align: left;
+    margin-top: 70px;
+    line-height: 50px;
+  }
+}
+.team-app-footer .team-app-footer-description-span {
+  padding-right: 10px;
+  background: url("../../Assets/Images/orange-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 275px 10px;
+  background-position: 90% 100%;
+}
+
+.team-app-footer-mobile {
+  background-color: #121110;
+}
+@media only screen and (min-width: 1024px) {
+  .team-app-footer-mobile {
+    display: none;
+  }
+}
+.team-app-footer-mobile .team-app-footer-divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.team-app-footer-mobile .team-app-footer-heading {
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  font-size: 32px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .team-app-footer-mobile .team-app-footer-heading {
+    background-size: 80px 20px;
+    background-position: 75% 85%;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .team-app-footer-mobile .team-app-footer-heading {
+    background-size: 80px 20px;
+    background-position: 72% 85%;
+  }
+}
+.team-app-footer-mobile .team-app-footer-heading-span {
+  padding-right: 5px;
+  background: url("../../Assets/Images/orange-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 80px 15px;
+  background-position: 82% 90%;
+}
+.team-app-footer-mobile .team-app-footer-website-example-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Mulish", sans-serif;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 5%;
+}
+.team-app-footer-mobile .team-app-footer-description-span {
+  padding-right: 10px;
+  background: url("../../Assets/Images/orange-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 275px 10px;
+  background-position: 100% 95%;
+}
+.team-app-footer-mobile .team-app-copyright-statement {
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 10px;
+}
