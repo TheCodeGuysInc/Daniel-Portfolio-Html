@@ -75,10 +75,6 @@ body {
   margin-right: 20px;
   padding: 5px;
   color: white;
-  background: url("../../Assets/Images/blue-rectangle.png");
-  background-repeat: no-repeat;
-  background-size: 30px 7px;
-  background-position: 90% 80%;
   text-decoration: none;
   font-size: 14px;
   font-family: "Abril Fatface", cursive;
@@ -115,6 +111,11 @@ body {
     font-size: 24px;
   }
 }
+
+.chat-app-introduction-section .chat-app-navbar-button:active {
+  transform: translateY(4px);
+}
+
 .chat-app-introduction-section .chat-app-developer-description-container {
   margin-left: 5%;
   margin-right: 5%;

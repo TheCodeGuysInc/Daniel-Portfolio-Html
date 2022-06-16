@@ -80,6 +80,7 @@ body {
     font-size: 24px;
   }
 }
+
 .introduction-section .navbar-button {
   padding: 5px;
   border: none;
@@ -101,6 +102,11 @@ body {
     font-size: 24px;
   }
 }
+
+.introduction-section .navbar-button:active {
+  transform: translateY(4px);
+}
+
 .introduction-section .developer-description-container {
   margin-left: 5%;
   margin-right: 5%;
@@ -220,6 +226,10 @@ body {
   width: 200px;
   height: 70px;
   cursor: pointer;
+}
+
+.website-project-button:active {
+  transform: translateY(4px);
 }
 
 .website-example {

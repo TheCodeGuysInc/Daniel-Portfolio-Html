@@ -75,10 +75,6 @@ body {
   margin-right: 20px;
   padding: 5px;
   color: white;
-  background: url("../../Assets/Images/orange-rectangle.png");
-  background-repeat: no-repeat;
-  background-size: 30px 7px;
-  background-position: 90% 80%;
   text-decoration: none;
   font-size: 14px;
 }
@@ -113,6 +109,11 @@ body {
     font-size: 24px;
   }
 }
+
+.team-app-introduction-section .team-app-navbar-button:active {
+  transform: translateY(4px);
+}
+
 .team-app-introduction-section .team-app-developer-description-container {
   margin-left: 5%;
   margin-right: 5%;
